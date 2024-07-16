@@ -1,5 +1,6 @@
 import Ref from "./components/Ref"
 import ControlledComponent from "./components/ControlledComponents.jsx"
+import ReactHookForm from "./components/ReactHookForm.jsx"
 
 
 export default function App() {
@@ -8,7 +9,8 @@ export default function App() {
     
    <div className="p-4">
       {/* <Ref/> */}
-      <ControlledComponent/>
+      {/* <ControlledComponent/> */}
+      <ReactHookForm/>
    </div>
   )
 }
